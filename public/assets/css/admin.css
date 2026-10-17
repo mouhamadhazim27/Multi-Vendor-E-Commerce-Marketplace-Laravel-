@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.active{
+     background-color: #1e293b;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.nav-link .active {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #1e293b;
+    color: #fff !important;
+    border-radius: 5px;
+}
